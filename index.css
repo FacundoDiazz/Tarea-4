@@ -19,11 +19,9 @@ header{
         font-size: 40px;
         border-radius: 6px;
     }
-main{
-    background: grey;
-}
 
-.footer {
+
+footer {
     background-color: wheat;
     color: #904E70;
     text-align: center;
@@ -37,5 +35,14 @@ main{
 
 .formulario{
     text-align: center;
+}
+
+.productos{
+
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
 }
 
