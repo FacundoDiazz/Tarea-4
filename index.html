@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="./Productos/HDJX5.html">
     <link rel="stylesheet" href="./navbar/admin.html">
     <link rel="stylesheet" href="./navbar/productos.html">
-    
+
 </head>
+
 <body>
 
     <header>
@@ -17,12 +19,14 @@
             Auriculares Fa.Ma
         </h1>
     </header>
-    
-    <div class="atajos">
-        <li> <a href="../index.html">formulario</a></li>
-                <li><a href="../navbar/productos.html">Productos</a></li>
-                <li><a href="../navbar/admin.html">Admin</a></li>
-    </div>
+    <nav>
+        <ul class="atajos">
+            
+            <li> <a href="../index.html">formulario</a></li>
+            <li><a href="../navbar/productos.html">Productos</a></li>
+            <li><a href="../navbar/admin.html">Login</a></li>
+        </ul>
+    </nav>
 
     <main>
         <div class="formulario">
@@ -32,61 +36,66 @@
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
 
-                <br>
+                    <br>
 
-                
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-        
-                <label for="Numero">Numero: </label>
-                <input type="Numero" id="Numero" required>
-                <br>
-        
-                <label for="provincia">Provincia:</label>
-                <select name="provincia" id="provincia">
-                <optgroup> <option value="BA">Buenos Aires</option>
-                    <option value="CM">Catamarca</option>
-                    <option value="CH">Chaco</option>
-                    <option value="CB">Chubut</option>
-                    <option value="CD">Córdoba</option>
-                    <option value="CR">Corrientes</option>
-                    <option value="ER">Entre Ríos</option>
-                    <option value="FM">Formosa</option>
-                    <option value="JJ">Jujuy</option>
-                    <option value="LP">La Pampa</option>
-                    <option value="LR">La Rioja</option>
-                    <option value="MD">Mendoza</option>
-                    <option value="MS">Misiones</option>
-                    <option value="NQ">Neuquén</option>
-                    <option value="RN">Río Negro</option>
-                    <option value="ST">Salta</option>
-                    <option value="SJ">San Juan</option>
-                    <option value="SL">San Luis</option>
-                    <option value="SC">Santa Cruz</option>
-                    <option value="SF">Santa Fe</option>
-                    <option value="SE">Santiago del Estero</option>
-                    <option value="TF">Tierra del Fuego</option>
-                    <option value="TM">Tucumán</option>
-                </optgroup>
-                </select>
-                <br>
-            <div class="datos">
-                <button type="submit">Enviar Datos</button>
-                <button type="reset">Borrar Datos</button>
-            </div>
-            </form>
-        </div>    
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+
+                    <label for="Numero">Numero: </label>
+                    <input type="Numero" id="Numero" required>
+                    <br>
+
+                    <label for="provincia">Provincia:</label>
+                    <select name="provincia" id="provincia">
+                        <optgroup>
+                            <option value="BA">Buenos Aires</option>
+                            <option value="CM">Catamarca</option>
+                            <option value="CH">Chaco</option>
+                            <option value="CB">Chubut</option>
+                            <option value="CD">Córdoba</option>
+                            <option value="CR">Corrientes</option>
+                            <option value="ER">Entre Ríos</option>
+                            <option value="FM">Formosa</option>
+                            <option value="JJ">Jujuy</option>
+                            <option value="LP">La Pampa</option>
+                            <option value="LR">La Rioja</option>
+                            <option value="MD">Mendoza</option>
+                            <option value="MS">Misiones</option>
+                            <option value="NQ">Neuquén</option>
+                            <option value="RN">Río Negro</option>
+                            <option value="ST">Salta</option>
+                            <option value="SJ">San Juan</option>
+                            <option value="SL">San Luis</option>
+                            <option value="SC">Santa Cruz</option>
+                            <option value="SF">Santa Fe</option>
+                            <option value="SE">Santiago del Estero</option>
+                            <option value="TF">Tierra del Fuego</option>
+                            <option value="TM">Tucumán</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <div class="datos">
+                        <button type="submit">Enviar Datos</button>
+                        <button type="reset">Borrar Datos</button>
+                    </div>
+                </form>
+        </div>
     </main>
 
-   
+
     <footer>
+        <h2>
+            Fa.Ma 
+        </h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit, repudiandae voluptate corporis quis ullam quo quibusdam odio, quisquam facilis quidem exercitationem. Nemo voluptates dolores aliquam fuga quae. Saepe, blanditiis.
+           Los mejores auriculares los encontas aqui.
         </p>
     </footer>
-    
+
     <script src="./index.js"></script>
     <script src="./admin.js"></script>
 </body>
+
 </html>

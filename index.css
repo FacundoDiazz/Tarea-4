@@ -65,8 +65,9 @@ header{
 }
 
 .productos{
-
-    display: flex;
+    
+    display: flex ;
+    gap: 15px;
     flex-wrap:wrap;
     flex-direction: row;
     justify-content: space-around;
@@ -96,8 +97,7 @@ li{
 a{
     text-decoration: none;
     color: white;
-    background-image: ;
-}
+   }
 
 
 footer {
@@ -111,3 +111,20 @@ footer {
     margin-left: 8rem;
     margin-bottom: 2rem;
 }
+
+nav{
+    margin-top: 10px;
+}
+
+.datos{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: beige;
+    
+}
+

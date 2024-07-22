@@ -3,6 +3,8 @@ body{
     background-color: rgb(20, 19, 19);
 }
 
+
+
 header{
     color: white;
     background: black;
@@ -97,4 +99,14 @@ background-color: rgb(34, 33, 33);
 a{
     text-decoration: none;
     color: white;
+}
+
+a img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+nav{
+    margin-top: 10px;
 }
